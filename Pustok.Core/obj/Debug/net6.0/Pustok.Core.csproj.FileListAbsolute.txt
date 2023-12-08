@@ -1,0 +1,15 @@
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.AssemblyInfoInputs.cache
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.AssemblyInfo.cs
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.csproj.CoreCompileInputs.cache
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.sourcelink.json
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\bin\Debug\net6.0\Pustok.Core.deps.json
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\bin\Debug\net6.0\Pustok.Core.runtimeconfig.json
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\bin\Debug\net6.0\Pustok.Core.dll
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\bin\Debug\net6.0\Pustok.Core.pdb
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.csproj.AssemblyReference.cache
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.dll
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\refint\Pustok.Core.dll
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.pdb
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\Pustok.Core.genruntimeconfig.cache
+C:\Users\Tenzıle SSD\Desktop\PustokPartial\Pustok.Core\obj\Debug\net6.0\ref\Pustok.Core.dll
