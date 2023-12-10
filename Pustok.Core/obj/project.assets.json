@@ -10693,11 +10693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\Pustokk.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
       "projectName": "Pustokk.Core",
-      "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\Pustokk.Core.csproj",
+      "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
       "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\obj\\",
+      "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

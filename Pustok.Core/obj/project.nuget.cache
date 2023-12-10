@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7TEDU7QIaFbf6XvtvtIKPWllKx++CLJ441TnaAJgvxk7Xx/gqEkV70YCV9tHivcHiJZ+UcnvCbPw/XRsaym4Gw==",
+  "dgSpecHash": "/b5KKEGXX4AvalTGLigS71gf4tulibD+3lY6/MxUKla3Fnf3MOMVIZMOCfWWCfTszfUwlKYDCsuFJkNpM9SHQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\Pustokk.Core.csproj",
+  "projectFilePath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

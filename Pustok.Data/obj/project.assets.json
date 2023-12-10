@@ -10717,11 +10717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Data\\Pustokk.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
       "projectName": "Pustokk.Data",
-      "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Data\\Pustokk.Data.csproj",
+      "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
       "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Data\\obj\\",
+      "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10743,8 +10743,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\Pustokk.Core.csproj": {
-              "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\HeaderSetting\\Pustok.Core\\Pustokk.Core.csproj"
+            "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj": {
+              "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj"
             }
           }
         }

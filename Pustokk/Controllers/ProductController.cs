@@ -33,8 +33,14 @@ namespace Pustokk.Controllers
 
 			return View(productDetailViewModel);
 		}
+        public async Task<IActionResult> GetBookModal(int id)
+        {
+            var book = await _bookService.GetByIdAsync(id);
 
-		public IActionResult SetSession(string name)
+            return PartialView("_BookModalPartial", book);
+        }
+
+        public IActionResult SetSession(string name)
         {
             HttpContext.Session.SetString("UserName", name);
             return Content("Added to session");
