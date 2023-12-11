@@ -7,5 +7,6 @@ namespace Pustokk.ViewModels
     {
         public List<Genre> Genres { get; set; }
         public List<Setting> Settings { get; set; }
-    }
+		public AppUser User { get; set; }
+	}
 }

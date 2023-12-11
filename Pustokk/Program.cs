@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Pustok.ViewServices;
+using Pustokk.ViewServices;
 using Pustokk.Business.Services.Implementations;
 using Pustokk.Business.Services.Interfaces;
+using Pustokk.Core.Models;
 using Pustokk.Data.DAL;
 using Pustokk.Repositories.Implementations;
 using Pustokk.Repositories.Interfaces;
@@ -36,6 +38,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("default"));
 });
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireNonAlphanumeric = true;
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireDigit = true;
+    opt.Password.RequireUppercase = true;
+    opt.Password.RequireLowercase = true;
+
+    opt.User.RequireUniqueEmail = false;
+
+}).AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -44,6 +59,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseSession();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
            name: "areas",
