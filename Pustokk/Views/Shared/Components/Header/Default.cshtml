@@ -172,12 +172,7 @@
 							<li class="menu-item">
 								<a href="contact.html">Contact</a>
 							</li>
-							<li class="menu-item">
-								<a href="my-account.html">
-									@(User.Identity.IsAuthenticated ? Model.User.FullName : "My Account")
-
-								</a>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -226,7 +221,7 @@
 							else
 							{
 								<div class="login-block">
-									<a asp-action="login" asp-controller="account" class="font-weight-bold">@user.FullName</a> <br>
+									<a asp-action="profile" asp-controller="account" class="font-weight-bold">@user.FullName</a> <br>
 									<a asp-action="logout" asp-controller="account">Logout</a>
 								</div>
 							}

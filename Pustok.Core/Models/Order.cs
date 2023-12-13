@@ -1,4 +1,5 @@
-﻿using Pustokk.Models;
+﻿using Pustokk.Core.Enums;
+using Pustokk.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,9 @@ namespace Pustokk.Core.Models
 		public string TotalPrice { get; set; }
 		public AppUser? User { get; set; }
 		public string? UserId { get; set; }
-		public List<OrderItem> OrderItems { get; set; }
-	}
+        public OrderStatus OrderStatus { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
+        public string? AppUserId { get; set; }
+      
+    }
 }

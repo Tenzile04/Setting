@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Pustokk.Core.Models;
+using Pustokk.Data.DAL;
 using Pustokk.ViewModels;
 
 namespace Pustokk.Controllers
@@ -10,11 +13,13 @@ namespace Pustokk.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<AppUser> _signInManager;
-        public AccountController(UserManager<AppUser> userManager,RoleManager<IdentityRole>roleManager,SignInManager<AppUser> signInManager)
+        private readonly AppDbContext _context;
+        public AccountController(UserManager<AppUser> userManager,RoleManager<IdentityRole>roleManager,SignInManager<AppUser> signInManager,AppDbContext context)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _signInManager = signInManager;
+            _context = context;
         }
         public IActionResult Index()
         {
@@ -101,5 +106,19 @@ namespace Pustokk.Controllers
 
 			return RedirectToAction("Login", "Account");
 		}
-	}
+        [Authorize(Roles = "Member,Admin, SuperAdmin")]
+        public async Task<IActionResult> Profile()
+        {
+            AppUser appUser = null;
+
+            if (HttpContext.User.Identity.IsAuthenticated)
+            {
+                appUser = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+            }
+
+            List<Order> orders = await _context.Orders.Where(x => x.AppUserId == appUser.Id).ToListAsync();
+
+            return View(orders);
+        }
+    }
 }

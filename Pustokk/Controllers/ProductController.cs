@@ -221,7 +221,7 @@ namespace Pustokk.Controllers
             }
             else
             {
-                userBasketItems = await _context.BasketItems.Include(x => x.Book).Where(x => x.AppUserId == user.Id).ToListAsync();
+                userBasketItems = await _context.BasketItems.Include(x => x.Book).Where(x => x.AppUserId == user.Id && !x.IsDeleted).ToListAsync();
 
                 foreach (var item in userBasketItems)
                 {
@@ -234,13 +234,12 @@ namespace Pustokk.Controllers
                 }
             }
 
-            OrderViewModel orderViewModel = new OrderViewModel()
+            OrderViewModel orderViewModel = new OrderViewModel
             {
                 CheckoutViewModels = checkoutItemList,
                 FullName = user?.FullName,
-                Email = user?.Email,
-
             };
+
             return View(orderViewModel);
         }
 
@@ -248,48 +247,42 @@ namespace Pustokk.Controllers
         public async Task<IActionResult> Checkout(OrderViewModel orderViewModel)
         {
             if (!ModelState.IsValid) return View();
-
             List<CheckoutViewModel> checkoutItemList = new List<CheckoutViewModel>();
             List<BasketItemViewModel> basketItemList = new List<BasketItemViewModel>();
             List<BasketItem> userBasketItems = new List<BasketItem>();
             CheckoutViewModel checkoutItem = null;
-            AppUser user = null;
             OrderItem orderItem = null;
+            AppUser user = null;
 
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
             }
 
-            Order order = new Order()
+            Order order = new Order
             {
                 FullName = orderViewModel.FullName,
                 Country = orderViewModel.Country,
-                Address = orderViewModel.Address,
                 Email = orderViewModel.Email,
-                ZipCode = orderViewModel.ZipCode,
+                Address = orderViewModel.Address,
                 Phone = orderViewModel.Phone,
+                ZipCode = orderViewModel.ZipCode,
                 Note = orderViewModel.Note,
-                UserId = user?.Id,
                 OrderItems = new List<OrderItem>(),
-
+                AppUserId = user?.Id,
+                CreatedDate = DateTime.UtcNow.AddHours(4)
             };
-
-
-            if (user is null)
+            if (user == null)
             {
-
                 string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
-
-                if (basketItemListStr is not null)
+                if (basketItemListStr != null)
                 {
                     basketItemList = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemListStr);
 
                     foreach (var item in basketItemList)
                     {
-                        Book book = await _context.Books.FirstOrDefaultAsync(x => x.Id == item.BookId);
-
-                        orderItem = new OrderItem()
+                        Book book = _context.Books.FirstOrDefault(x => x.Id == item.BookId);
+                        orderItem = new OrderItem
                         {
                             Book = book,
                             BookName = book.Name,
@@ -297,24 +290,22 @@ namespace Pustokk.Controllers
                             DiscountPercent = book.DiscountPercent,
                             SalePrice = book.SalePrice * ((100 - book.DiscountPercent) / 100),
                             Count = item.Count,
-                            Order = order,
+                            Order = order
                         };
 
                         order.TotalPrice += orderItem.SalePrice * orderItem.Count;
                         order.OrderItems.Add(orderItem);
                     }
-
                 }
             }
             else
             {
-                userBasketItems = await _context.BasketItems.Include(x => x.Book).Where(x => x.AppUserId == user.Id).ToListAsync();
+                userBasketItems = await _context.BasketItems.Include(x => x.Book).Where(x => x.AppUserId == user.Id && !x.IsDeleted).ToListAsync();
 
                 foreach (var item in userBasketItems)
                 {
-                    Book book = await _context.Books.FirstOrDefaultAsync(x => x.Id == item.BookId);
-
-                    orderItem = new OrderItem()
+                    Book book = _context.Books.FirstOrDefault(x => x.Id == item.BookId);
+                    orderItem = new OrderItem
                     {
                         Book = book,
                         BookName = book.Name,
@@ -322,18 +313,20 @@ namespace Pustokk.Controllers
                         DiscountPercent = book.DiscountPercent,
                         SalePrice = book.SalePrice * ((100 - book.DiscountPercent) / 100),
                         Count = item.Count,
-                        Order = order,
+                        Order = order
                     };
 
                     order.TotalPrice += orderItem.SalePrice * orderItem.Count;
                     order.OrderItems.Add(orderItem);
+                    item.IsDeleted = true;
                 }
             }
+
 
             await _context.Orders.AddAsync(order);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("index", "home");
         }
         public async Task<IActionResult> SearchBooks(string value)
 		{
