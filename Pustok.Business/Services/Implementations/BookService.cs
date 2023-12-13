@@ -6,6 +6,7 @@ using Pustokk.Extencions;
 using Pustokk.Models;
 using Pustokk.Repositories.Interfaces;
 using Pustokk.Services.Interfaces;
+using System.Linq.Expressions;
 
 namespace Pustokk.Services.Implementations
 {
@@ -162,11 +163,10 @@ namespace Pustokk.Services.Implementations
         }
 
 
-
-        public async Task<List<Book>> GetAllAsync()
-        {
-            return await _bookRepository.GetAllAsync(x => x.IsDeleted == false, "BookImages", "Author");
-        }
+		public async Task<List<Book>> GetAllAsync(Expression<Func<Book, bool>>? expression = null)
+		{
+			return await _bookRepository.GetAllAsync(expression, "BookImages", "Author");
+		}
 
 		public async Task<List<Book>> GetAllRelatedBooksAsync(Book book)
 		{

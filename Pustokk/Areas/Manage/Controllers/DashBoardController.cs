@@ -5,7 +5,7 @@ using Pustokk.Core.Models;
 
 namespace Pustokk.Areas.Manage.Controllers
 {
-    [Authorize(Roles = "SuperAdmin,Admin")]
+    //[Authorize(Roles = "SuperAdmin,Admin")]
     [Area("manage")]
     public class DashBoardController : Controller
     {

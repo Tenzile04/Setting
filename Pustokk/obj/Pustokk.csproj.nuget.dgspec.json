@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustokk\\Pustokk.csproj": {}
+    "C:\\Users\\II novbe\\Desktop\\Setting\\Pustokk\\Pustokk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj": {
+    "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj",
+        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj",
         "projectName": "Pustokk.Business",
-        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj",
-        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\obj\\",
+        "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj",
+        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj": {
-                "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj"
+              "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj": {
+                "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj"
               }
             }
           }
@@ -95,21 +90,17 @@
         }
       }
     },
-    "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj": {
+    "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
+        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
         "projectName": "Pustokk.Core",
-        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
-        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\obj\\",
+        "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj",
+        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -178,21 +168,17 @@
         }
       }
     },
-    "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj": {
+    "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
+        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
         "projectName": "Pustokk.Data",
-        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
-        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Data\\obj\\",
+        "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\Pustokk.Data.csproj",
+        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,15 +186,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj": {
-                "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj"
+              "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj": {
+                "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Core\\Pustokk.Core.csproj"
               }
             }
           }
@@ -269,21 +254,17 @@
         }
       }
     },
-    "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustokk\\Pustokk.csproj": {
+    "C:\\Users\\II novbe\\Desktop\\Setting\\Pustokk\\Pustokk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustokk\\Pustokk.csproj",
+        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustokk\\Pustokk.csproj",
         "projectName": "Pustokk",
-        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustokk\\Pustokk.csproj",
-        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustokk\\obj\\",
+        "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustokk\\Pustokk.csproj",
+        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustokk\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -291,15 +272,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj": {
-                "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj"
+              "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj": {
+                "projectPath": "C:\\Users\\II novbe\\Desktop\\Setting\\Pustok.Business\\Pustokk.Business.csproj"
               }
             }
           }

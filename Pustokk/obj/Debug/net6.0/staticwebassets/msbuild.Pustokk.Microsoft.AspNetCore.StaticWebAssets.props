@@ -31456,6 +31456,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\04967a13-34da-4301-b320-a2517133cce0product-details-4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\04b6bd4c-a8d9-465a-b8b9-9b40167dddeeproduct-details-3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/04b6bd4c-a8d9-465a-b8b9-9b40167dddeeproduct-details-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\04b6bd4c-a8d9-465a-b8b9-9b40167dddeeproduct-details-3.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\05198a55-e4d7-4b3a-9e33-c66b19a43ae2home-2-slider-2(1).jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -31808,6 +31824,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\1c7ac495-2ae2-4b40-8651-94c04dcdf26dproduct-details-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\1d7a8397-bbfa-440f-8fd3-aaaebe1e3ae1product-details-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/1d7a8397-bbfa-440f-8fd3-aaaebe1e3ae1product-details-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\1d7a8397-bbfa-440f-8fd3-aaaebe1e3ae1product-details-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\1dcb7862-30c6-49d5-9768-fe94f3d3a919slide-3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -31999,6 +32031,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\287bd2c5-c469-4dae-8b2d-316117aa4005slide-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\287d3d1c-e731-4b0d-8813-bef95b423a24product-details-3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/287d3d1c-e731-4b0d-8813-bef95b423a24product-details-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\287d3d1c-e731-4b0d-8813-bef95b423a24product-details-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\28e0df9c-37a0-4dc7-bc0c-2951fca8d560slide-2.jpg))">
       <SourceType>Package</SourceType>
@@ -32544,6 +32592,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\56a63d63-9033-411d-934c-861068fee3a8product-8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\58df5ee6-9a1e-47ac-9ee2-f7a8c0f0dd09cart-product-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/58df5ee6-9a1e-47ac-9ee2-f7a8c0f0dd09cart-product-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\58df5ee6-9a1e-47ac-9ee2-f7a8c0f0dd09cart-product-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\59f71b1f-7a11-4069-a352-eb7ae9714c15product-11.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -32784,6 +32848,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6552e51c-2af9-46dc-a0ad-df0257ce0e2dproduct-9 - Copy - Copy - Copy.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\663760eb-d72e-4b2f-95e4-db849cf7595dproduct-8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/663760eb-d72e-4b2f-95e4-db849cf7595dproduct-8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\663760eb-d72e-4b2f-95e4-db849cf7595dproduct-8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\66ff1582-cd74-460a-bd5b-5f016e8d9aabproduct-13.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -32911,6 +32991,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6e540dca-28ea-40e8-9a4b-751fd62572e9product-7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6e732b07-ce4d-48f9-8c7f-e2acca6843a2product-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/6e732b07-ce4d-48f9-8c7f-e2acca6843a2product-11.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6e732b07-ce4d-48f9-8c7f-e2acca6843a2product-11.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6f205928-3833-4159-a288-4b47c3935f03product-12.jpg))">
       <SourceType>Package</SourceType>
@@ -33135,6 +33231,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8283f21a-977b-48b5-9f8c-24e4a07716b5product-9.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\82adff42-fa13-4f72-90fc-bbdaf58cb99eproduct-details-4 - Copy - Copy - Copy.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/82adff42-fa13-4f72-90fc-bbdaf58cb99eproduct-details-4 - Copy - Copy - Copy.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\82adff42-fa13-4f72-90fc-bbdaf58cb99eproduct-details-4 - Copy - Copy - Copy.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8324f1bd-9812-48c0-90f8-615b7f31b84fhome-2-slider-1.jpg))">
       <SourceType>Package</SourceType>
@@ -33552,6 +33664,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\a3e494e9-f56b-4169-bfe4-6862ecf823ffproduct-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\a41b6bcd-b5e9-4693-9d86-fa9994e11c64product-7.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/a41b6bcd-b5e9-4693-9d86-fa9994e11c64product-7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\a41b6bcd-b5e9-4693-9d86-fa9994e11c64product-7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\a68417b3-b7f0-40aa-8cbb-1f4de832c3e3cart-product-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -33712,6 +33840,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b091a483-a117-4174-abd2-0d9bbc1000deproduct-12.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b1e755c8-78d4-4d12-93f3-43f26dccc9aeproduct-10.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/b1e755c8-78d4-4d12-93f3-43f26dccc9aeproduct-10.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b1e755c8-78d4-4d12-93f3-43f26dccc9aeproduct-10.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b252bd51-6d83-4a79-b7a7-3b9aa4b05029product-details-2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/b252bd51-6d83-4a79-b7a7-3b9aa4b05029product-details-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b252bd51-6d83-4a79-b7a7-3b9aa4b05029product-details-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b2ac3c3f-07c1-456d-a87f-f39a9b18426eproduct-8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -33839,6 +33999,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b8391c45-9f46-44fd-b9f1-6df3f6c3d797product-13(1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b9b1164a-32ad-48ee-9919-54966810fd00product-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/b9b1164a-32ad-48ee-9919-54966810fd00product-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b9b1164a-32ad-48ee-9919-54966810fd00product-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\b9e1dc36-95ec-471c-b9f9-b450c521c95cproduct-details-1.jpg))">
       <SourceType>Package</SourceType>
@@ -34144,6 +34320,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d0a621b3-87d8-4db0-99e1-99e982144e8cproduct-7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d1019294-a03e-45c0-9e7e-9a2ca402af2fproduct-details-2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/d1019294-a03e-45c0-9e7e-9a2ca402af2fproduct-details-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d1019294-a03e-45c0-9e7e-9a2ca402af2fproduct-details-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d14c711b-b4b7-41f3-82dd-6df90b2dcdf2product-13.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pustokk</SourceId>
@@ -34159,6 +34351,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d14c711b-b4b7-41f3-82dd-6df90b2dcdf2product-13.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d824721d-d7b8-485b-82e1-1c8a50cfc049product-9 - Copy - Copy - Copy.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/d824721d-d7b8-485b-82e1-1c8a50cfc049product-9 - Copy - Copy - Copy.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d824721d-d7b8-485b-82e1-1c8a50cfc049product-9 - Copy - Copy - Copy.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\db4041c9-101e-4e3f-a81a-724b80f5a693home-3-slider-2(1).jpg))">
       <SourceType>Package</SourceType>
@@ -34319,6 +34527,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eb1a2ec2-4d90-4dc9-8ee8-5e7279b7fff6product-4(1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f1c42776-f5ac-4611-85d6-dda5e963e801product-details-3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/f1c42776-f5ac-4611-85d6-dda5e963e801product-details-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f1c42776-f5ac-4611-85d6-dda5e963e801product-details-3.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f1e18f5f-43a1-485c-9a5a-85b5e4a5ba28product-2 - Copy - Copy.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustokk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustokk</BasePath>
+      <RelativePath>uploads/books/f1e18f5f-43a1-485c-9a5a-85b5e4a5ba28product-2 - Copy - Copy.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f1e18f5f-43a1-485c-9a5a-85b5e4a5ba28product-2 - Copy - Copy.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f52271bb-2b3e-4300-b928-fb4305b0e9bbproduct-2.jpg))">
       <SourceType>Package</SourceType>
