@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pustokk.Core.Models;
 using Pustokk.Data.DAL;
+using Pustokk.PaginationHelper;
 
 namespace Pustokk.Areas.Manage.Controllers
 {
@@ -17,11 +18,12 @@ namespace Pustokk.Areas.Manage.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page=1)
         {
-            List<Order> orders = await _context.Orders.ToListAsync();
-
-            return View(orders);
+            var query = _context.Orders.AsQueryable();
+            //List<Order> orders = await _context.Orders.ToListAsync();
+            PaginatedList<Order> paginatedOrder =  PaginatedList<Order>.Create(query, page, 1);
+            return View(paginatedOrder);
         }
 
         public async Task<IActionResult> Detail(int id)
@@ -43,11 +45,19 @@ namespace Pustokk.Areas.Manage.Controllers
             return RedirectToAction("index", "order");
         }
 
-        public async Task<IActionResult> Reject(int id)
+        public async Task<IActionResult> Reject(int id, string AdminComment)
         {
-            Order order = await _context.Orders.FirstOrDefaultAsync(x => x.Id == id);
+
+            Order order = await _context.Orders.Include(x=>x.OrderItems).FirstOrDefaultAsync(x => x.Id == id);
             if (order is null) return NotFound();
+            if (AdminComment == null)
+            {
+                ModelState.AddModelError("AdminComment", "Must be written");
+                return View("detail",order);
+            }
+
             order.OrderStatus = Core.Enums.OrderStatus.Rejected;
+            order.AdminComment = AdminComment;
 
             await _context.SaveChangesAsync();
 

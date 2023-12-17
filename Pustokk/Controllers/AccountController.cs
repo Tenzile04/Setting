@@ -70,7 +70,12 @@ namespace Pustokk.Controllers
 
             return RedirectToAction("index", "Home");
         }
-		public async Task<IActionResult> Login(MemberLoginViewModel memberLoginVM)
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(MemberLoginViewModel memberLoginVM)
 		{
 			if (!ModelState.IsValid) return View();
 			AppUser user = null;
@@ -91,13 +96,13 @@ namespace Pustokk.Controllers
 				return View();
 			}
 
-			user = await _userManager.FindByEmailAsync(memberLoginVM.Email);
+			//user = await _userManager.FindByEmailAsync(memberLoginVM.Email);
 
-			if (user == null)
-			{
-				ModelState.AddModelError("", "Invalid Username or Password! or Email!");
-				return View();
-			}
+			//if (user == null)
+			//{
+			//	ModelState.AddModelError("", "Invalid Username or Password! or Email!");
+			//	return View();
+			//}
 			return RedirectToAction("Index", "Home");
 		}
 		public async Task<IActionResult> Logout()

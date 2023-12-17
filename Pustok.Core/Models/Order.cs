@@ -23,6 +23,7 @@ namespace Pustokk.Core.Models
         public OrderStatus OrderStatus { get; set; }
         public List<OrderItem> OrderItems { get; set; }
         public string? AppUserId { get; set; }
+		public string? AdminComment { get; set; }
       
     }
 }

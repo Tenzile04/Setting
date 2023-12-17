@@ -47,12 +47,18 @@
                         }
                     </tbody>
                 </table>
+                <form id="admin-comment-form" method="post" asp-action="reject" asp-controller="order">
+                    <label asp-for="AdminComment"></label>
+                    <textarea asp-for="AdminComment"></textarea>
+                    <span asp-validation-for="AdminComment" class="text-danger"></span>
+                    <input  hidden value="@Model.Id" asp-for="Id" />
+                </form>
            </div>
         </div>
 
         <div class="card-body">
             <a asp-action="accept" asp-controller="order" asp-route-id="@Model.Id" class="btn btn-success">Accept</a>
-            <a asp-action="reject" asp-controller="order" asp-route-id="@Model.Id" class="btn btn-danger">Reject</a>
+            <button type="submit" form="admin-comment-form" class="btn btn-danger">Reject</button>
             <a asp-action="index" asp-controller="order" class="btn btn-primary">Go back</a>
         </div>
     </div>
