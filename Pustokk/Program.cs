@@ -10,6 +10,8 @@ using Pustokk.Repositories.Interfaces;
 using Pustokk.Services.Implementations;
 using Pustokk.Services.Interfaces;
 using System;
+using Pustokk.Business.Hubs;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,6 +55,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 
 }).AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -71,5 +74,5 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapHub<ChatHub>("/chatUrl");
 app.Run();

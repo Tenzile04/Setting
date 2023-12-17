@@ -14,5 +14,7 @@ namespace Pustokk.Core.Models
         public List<BasketItem> BasketItems { get; set; }
 		public List<Order> Orders { get; set; }
 
+        public string? ConnectionId { get; set; }
+
 	}
 }

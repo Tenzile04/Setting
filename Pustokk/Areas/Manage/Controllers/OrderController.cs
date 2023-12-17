@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using Pustokk.Business.Hubs;
 using Pustokk.Core.Models;
 using Pustokk.Data.DAL;
 using Pustokk.PaginationHelper;
@@ -12,10 +15,16 @@ namespace Pustokk.Areas.Manage.Controllers
     public class OrderController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IHubContext<ChatHub> _hubContext;
+        private readonly UserManager<AppUser> _userManager;
 
-        public OrderController(AppDbContext context)
+
+        public OrderController(AppDbContext context, IHubContext<ChatHub> hubContext, UserManager<AppUser> userManager)
         {
             _context = context;
+            _hubContext = hubContext;
+            _userManager = userManager;
+
         }
 
         public async Task<IActionResult> Index(int page=1)
@@ -42,6 +51,16 @@ namespace Pustokk.Areas.Manage.Controllers
 
             await _context.SaveChangesAsync();
 
+            if (order.AppUserId != null)
+            {
+
+                var user = await _userManager.FindByIdAsync(order.AppUserId);
+                if (user !=null)
+                {
+                    await _hubContext.Clients.Client(user.ConnectionId).SendAsync("OrderAccepted");
+                }
+            }
+
             return RedirectToAction("index", "order");
         }
 
@@ -61,6 +80,15 @@ namespace Pustokk.Areas.Manage.Controllers
 
             await _context.SaveChangesAsync();
 
+            if (order.AppUserId != null)
+            {
+
+                var user = await _userManager.FindByIdAsync(order.AppUserId);
+                if (user != null)
+                {
+                    await _hubContext.Clients.Client(user.ConnectionId).SendAsync("OrderRejected",AdminComment);
+                }
+            }
 
             return RedirectToAction("index", "order");
         }
